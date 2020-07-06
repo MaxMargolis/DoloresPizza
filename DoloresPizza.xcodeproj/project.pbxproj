@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		822A2C8B24B3A57E005D7B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2C8A24B3A57E005D7B18 /* AppDelegate.swift */; };
 		822A2C8D24B3A57E005D7B18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */; };
-		822A2C8F24B3A57E005D7B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2C8E24B3A57E005D7B18 /* ContentView.swift */; };
 		822A2C9124B3A57E005D7B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9024B3A57E005D7B18 /* Assets.xcassets */; };
 		822A2C9424B3A57E005D7B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9324B3A57E005D7B18 /* Preview Assets.xcassets */; };
 		822A2C9724B3A57E005D7B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9524B3A57E005D7B18 /* LaunchScreen.storyboard */; };
@@ -29,7 +28,6 @@
 		822A2C8724B3A57E005D7B18 /* DoloresPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoloresPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		822A2C8A24B3A57E005D7B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		822A2C8E24B3A57E005D7B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		822A2C9024B3A57E005D7B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		822A2C9324B3A57E005D7B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		822A2C9624B3A57E005D7B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			children = (
 				822A2C8A24B3A57E005D7B18 /* AppDelegate.swift */,
 				822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */,
-				822A2C8E24B3A57E005D7B18 /* ContentView.swift */,
 				822A2C9E24B3A5E5005D7B18 /* Constants.swift */,
 				822A2CB424B3A8BD005D7B18 /* UI */,
 				822A2CAB24B3A7D7005D7B18 /* Service */,
@@ -207,7 +204,6 @@
 				822A2CB324B3A8A2005D7B18 /* VenueList.swift in Sources */,
 				822A2C8D24B3A57E005D7B18 /* SceneDelegate.swift in Sources */,
 				822A2CA524B3A686005D7B18 /* FoursquareResources.swift in Sources */,
-				822A2C8F24B3A57E005D7B18 /* ContentView.swift in Sources */,
 				822A2C9F24B3A5E5005D7B18 /* Constants.swift in Sources */,
 				822A2CAA24B3A7BD005D7B18 /* DataFetcher.swift in Sources */,
 				822A2CAF24B3A84A005D7B18 /* VenueListViewModel.swift in Sources */,
