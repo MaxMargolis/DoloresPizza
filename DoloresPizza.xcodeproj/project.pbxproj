@@ -19,6 +19,10 @@
 		822A2CA524B3A686005D7B18 /* FoursquareResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA424B3A686005D7B18 /* FoursquareResources.swift */; };
 		822A2CA724B3A71C005D7B18 /* GetRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA624B3A71C005D7B18 /* GetRequests.swift */; };
 		822A2CAA24B3A7BD005D7B18 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */; };
+		822A2CAD24B3A81B005D7B18 /* VenueDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CAC24B3A81B005D7B18 /* VenueDisplayModel.swift */; };
+		822A2CAF24B3A84A005D7B18 /* VenueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CAE24B3A84A005D7B18 /* VenueListViewModel.swift */; };
+		822A2CB124B3A876005D7B18 /* VenueListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CB024B3A876005D7B18 /* VenueListRow.swift */; };
+		822A2CB324B3A8A2005D7B18 /* VenueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CB224B3A8A2005D7B18 /* VenueList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		822A2CA424B3A686005D7B18 /* FoursquareResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareResources.swift; sourceTree = "<group>"; };
 		822A2CA624B3A71C005D7B18 /* GetRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequests.swift; sourceTree = "<group>"; };
 		822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		822A2CAC24B3A81B005D7B18 /* VenueDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDisplayModel.swift; sourceTree = "<group>"; };
+		822A2CAE24B3A84A005D7B18 /* VenueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewModel.swift; sourceTree = "<group>"; };
+		822A2CB024B3A876005D7B18 /* VenueListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListRow.swift; sourceTree = "<group>"; };
+		822A2CB224B3A8A2005D7B18 /* VenueList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 				822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */,
 				822A2C8E24B3A57E005D7B18 /* ContentView.swift */,
 				822A2C9E24B3A5E5005D7B18 /* Constants.swift */,
+				822A2CB424B3A8BD005D7B18 /* UI */,
 				822A2CAB24B3A7D7005D7B18 /* Service */,
 				822A2CA824B3A731005D7B18 /* Network */,
 				822A2C9024B3A57E005D7B18 /* Assets.xcassets */,
@@ -107,6 +116,17 @@
 				822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		822A2CB424B3A8BD005D7B18 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				822A2CAC24B3A81B005D7B18 /* VenueDisplayModel.swift */,
+				822A2CAE24B3A84A005D7B18 /* VenueListViewModel.swift */,
+				822A2CB024B3A876005D7B18 /* VenueListRow.swift */,
+				822A2CB224B3A8A2005D7B18 /* VenueList.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,13 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822A2CB124B3A876005D7B18 /* VenueListRow.swift in Sources */,
+				822A2CAD24B3A81B005D7B18 /* VenueDisplayModel.swift in Sources */,
 				822A2CA724B3A71C005D7B18 /* GetRequests.swift in Sources */,
 				822A2C8B24B3A57E005D7B18 /* AppDelegate.swift in Sources */,
+				822A2CB324B3A8A2005D7B18 /* VenueList.swift in Sources */,
 				822A2C8D24B3A57E005D7B18 /* SceneDelegate.swift in Sources */,
 				822A2CA524B3A686005D7B18 /* FoursquareResources.swift in Sources */,
 				822A2C8F24B3A57E005D7B18 /* ContentView.swift in Sources */,
 				822A2C9F24B3A5E5005D7B18 /* Constants.swift in Sources */,
 				822A2CAA24B3A7BD005D7B18 /* DataFetcher.swift in Sources */,
+				822A2CAF24B3A84A005D7B18 /* VenueListViewModel.swift in Sources */,
 				822A2CA324B3A638005D7B18 /* NetworkModels.swift in Sources */,
 				822A2CA124B3A607005D7B18 /* ApiKeys.swift in Sources */,
 			);
