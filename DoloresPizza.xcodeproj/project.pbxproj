@@ -18,6 +18,7 @@
 		822A2CA324B3A638005D7B18 /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA224B3A638005D7B18 /* NetworkModels.swift */; };
 		822A2CA524B3A686005D7B18 /* FoursquareResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA424B3A686005D7B18 /* FoursquareResources.swift */; };
 		822A2CA724B3A71C005D7B18 /* GetRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA624B3A71C005D7B18 /* GetRequests.swift */; };
+		822A2CAA24B3A7BD005D7B18 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		822A2CA224B3A638005D7B18 /* NetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
 		822A2CA424B3A686005D7B18 /* FoursquareResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareResources.swift; sourceTree = "<group>"; };
 		822A2CA624B3A71C005D7B18 /* GetRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequests.swift; sourceTree = "<group>"; };
+		822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */,
 				822A2C8E24B3A57E005D7B18 /* ContentView.swift */,
 				822A2C9E24B3A5E5005D7B18 /* Constants.swift */,
+				822A2CAB24B3A7D7005D7B18 /* Service */,
 				822A2CA824B3A731005D7B18 /* Network */,
 				822A2C9024B3A57E005D7B18 /* Assets.xcassets */,
 				822A2C9524B3A57E005D7B18 /* LaunchScreen.storyboard */,
@@ -96,6 +99,14 @@
 				822A2CA624B3A71C005D7B18 /* GetRequests.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		822A2CAB24B3A7D7005D7B18 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				822A2CA924B3A7BD005D7B18 /* DataFetcher.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				822A2CA524B3A686005D7B18 /* FoursquareResources.swift in Sources */,
 				822A2C8F24B3A57E005D7B18 /* ContentView.swift in Sources */,
 				822A2C9F24B3A5E5005D7B18 /* Constants.swift in Sources */,
+				822A2CAA24B3A7BD005D7B18 /* DataFetcher.swift in Sources */,
 				822A2CA324B3A638005D7B18 /* NetworkModels.swift in Sources */,
 				822A2CA124B3A607005D7B18 /* ApiKeys.swift in Sources */,
 			);
