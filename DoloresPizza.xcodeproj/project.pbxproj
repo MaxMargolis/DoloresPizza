@@ -13,6 +13,7 @@
 		822A2C9124B3A57E005D7B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9024B3A57E005D7B18 /* Assets.xcassets */; };
 		822A2C9424B3A57E005D7B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9324B3A57E005D7B18 /* Preview Assets.xcassets */; };
 		822A2C9724B3A57E005D7B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822A2C9524B3A57E005D7B18 /* LaunchScreen.storyboard */; };
+		822A2C9F24B3A5E5005D7B18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A2C9E24B3A5E5005D7B18 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		822A2C9324B3A57E005D7B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		822A2C9624B3A57E005D7B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		822A2C9824B3A57E005D7B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822A2C9E24B3A5E5005D7B18 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				822A2C8A24B3A57E005D7B18 /* AppDelegate.swift */,
 				822A2C8C24B3A57E005D7B18 /* SceneDelegate.swift */,
 				822A2C8E24B3A57E005D7B18 /* ContentView.swift */,
+				822A2C9E24B3A5E5005D7B18 /* Constants.swift */,
 				822A2C9024B3A57E005D7B18 /* Assets.xcassets */,
 				822A2C9524B3A57E005D7B18 /* LaunchScreen.storyboard */,
 				822A2C9824B3A57E005D7B18 /* Info.plist */,
@@ -149,6 +152,7 @@
 				822A2C8B24B3A57E005D7B18 /* AppDelegate.swift in Sources */,
 				822A2C8D24B3A57E005D7B18 /* SceneDelegate.swift in Sources */,
 				822A2C8F24B3A57E005D7B18 /* ContentView.swift in Sources */,
+				822A2C9F24B3A5E5005D7B18 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
