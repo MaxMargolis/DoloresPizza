@@ -1,6 +1,5 @@
 # DoloresPizza
-An example of some fun Combine stuff, including request chaining (see DataFetcher.swift).
+This is a demo project to practice request chaining (see DataFetcher.swift) with Combine in the context of a generic protocol based network layer.
 Uses Foursquare API to find and display top 10 recommended pizza places near Dolores Park in San Francisco.
-MVVM, SwiftUI, protocol based network layer.
 
 Don't forget to set your own Foursquare API keys in ApiKeys.swift!
